@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Bar</title>
+<style>
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        border-bottom: 1px solid #dee2e6;
+        flex-wrap: wrap;
+        color: black;
+
+    }
+    .navbar ul li a{
+        color: white;
+        font-size: large;
+    }
+
+    .navbar-brand img {
+        height: 80px;
+        border-radius: 50%;
+        width: 80px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        margin: 0 10px;
+    }
+
+    .form-inline {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .form-control {
+        margin-right: 10px;
+    }
+  img{
+    width: 100%;
+    height: 500px;
+  }
+  body{
+    background-color: rgb(166,180,43);
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+    background-color: white;
+    
+  }
+p{
+    text-align: justify;
+}
+#one{
+    
+    border-radius: 2px;
+    
+}
+#two{
+    
+    border-radius: 2px;
+}
+#three{
+    
+    border-radius: 2px;
+}
+h2{
+      background-color: #f8f9fa;
+
+    text-align: center;
+}
+.i1{
+    border-radius: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quick-links,
+.social-icons,
+.map {
+    flex: 1;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+#one:hover{
+    scale: 1;
+    cursor: pointer;
+}
+iframe{
+    border-radius: 5px;
+}
+.form-inline input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-inline button{
+padding: 5px;
+border-radius: 5px;
+}
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2, p {
+    text-align: center;
+  }
+  p {
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a class="navbar-brand" href="index.html"><img src=logo.jpg alt="Logo"></a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Signup.html">Signup</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login</a>
+        </li>
+       
+        <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+        </li>
+    </ul>
+    <form class="form-inline">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+</nav>
+<div class="container1">
+    <h1>About Our Organic Farm</h1>
+    <p>Welcome to our organic farm! We are dedicated to sustainable farming practices that prioritize the health of the soil, the environment, and our community.</p>
+    <h2>Our Mission</h2>
+    <p>At our farm, we strive to provide the freshest, highest quality organic produce to our customers while promoting environmental stewardship and supporting local agriculture.</p>
+    <h2>Our Values</h2>
+    <ul>
+      <li><strong>Quality:</strong> We are committed to producing the finest organic fruits and vegetables using natural, sustainable methods.</li>
+      <li><strong>Sustainability:</strong> We prioritize practices that conserve water, promote biodiversity, and reduce our carbon footprint.</li>
+      <li><strong>Community:</strong> We believe in building strong relationships with our customers, neighbors, and fellow farmers to create a thriving local food system.</li>
+      <li><strong>Transparency:</strong> We believe in transparency and honesty in all aspects of our farming practices, from seed to harvest.</li>
+    </ul>
+    <p>Thank you for supporting our mission to grow healthy food and nurture our planet. We invite you to visit our farm and experience the beauty and abundance of organic agriculture firsthand!</p>
+  </div>
+<footer>
+    <div class="container">
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <h3>Follow Us</h3>
+            <ul>
+               <a href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a>
+                    <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
+            </ul>
+        </div>
+        <div class="map">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.036268228056!2d-74.00611148467678!3d40.71277658390349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25943309dd4c5%3A0x630b9d31f7f0cb6!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1648434671709!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
